@@ -5,6 +5,7 @@ Esta terminal, contará con:
 * Paquete de Batería de 1.2v 25Ah (10 Pilas AA de NiMH 1.2v)
 * Herramientas para hacer debuggin(JTAG,UART,SPI,i2c) y GPIO expuestos
 * Salida de voltaje controlada por módulo de kernel con el propósito de alimentar circuitos externos(i2c)
+* USB Hub con cuatro puertos
 
 Como "Motor" tendrá un SBC con alguna distribución de Linux,el formato más compacto es la 
 de la Raspberry Pi Zero.
