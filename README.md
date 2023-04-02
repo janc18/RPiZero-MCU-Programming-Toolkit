@@ -1,27 +1,27 @@
-# La navaja suiza de la programación y debuggin de microcontroladores
+# RPiZero-MCU-Programming-Toolkit
 
-Esta terminal, contará con:
-* Pantalla de 5in 800x480px
-* Paquete de Batería de 1.2v 25Ah (10 Pilas AA de NiMH 1.2v)
-* Herramientas para hacer debuggin(JTAG,UART,SPI,i2c) y GPIO expuestos
-* Salida de voltaje controlada por módulo de kernel con el propósito de alimentar circuitos externos(i2c)
-* USB Hub con cuatro puertos
+This terminal will have:
+* 5in 800x480px HDMI Screen
+* 1.2V 25Ah Battery pack (10 x (AA cells of 2500 mAh 1.2v each))
+* Tool set to do debugging protocols(JTAG,UART,SPI,i2c) and GPIO exposed
+* Controlled output voltage with Kernel module
+* USB hub with 4 ports
 
-Como "Motor" tendrá un SBC con alguna distribución de Linux,el formato más compacto es la 
-de la Raspberry Pi Zero.
+Under the hood it will have a SBC with a Linux distribution (probably Raspian), the best form factor in my opinion, for
+this particular purpose it's the Raspberry Pi Zero.
 
-Algunos de los SBC que se podrían usar son:
+Some good option are:
 * MangoPi mq-quad
 * Radxa Zero
 * Raspberry Pi Zero 2
 
-Se elige este combo de puertos HDMI 
+It's choose the next HDMI ports and cables 
 https://es.aliexpress.com/item/1005003057727464.html
 **A2**
 **C2**
-**Cable FFC con una distancia de 10cm y 20cm**
+**FCC Cable and HDMI ports**
 
 To do
- - [ ] Traducir Readme a ingles
+ - [x] Translate README file to English
  - [ ] Realizar investigaciones de todos los componentes necesarios
 
